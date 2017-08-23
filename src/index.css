@@ -1,22 +1,29 @@
 /* resetcss */
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 *::before,
-*::after{
+*::after {
     box-sizing: border-box;
 }
-ul,ol,dl{
+
+ul,
+ol,
+dl {
     list-style: none;
 }
+
 
 /* base style */
 
 
 /* sidebar-wrapper */
-.sidebar-wrapper{
+
+.sidebar-wrapper {
     position: fixed;
     left: 0;
     top: 0;
@@ -31,7 +38,8 @@ ul,ol,dl{
 
 
 /* content-wrapper */
-.content-wrapper{
+
+.content-wrapper {
     overflow: visible;
     width: 60%;
     max-width: 1200px;
@@ -39,37 +47,70 @@ ul,ol,dl{
     background: #333;
 }
 
-.project li{
+.project li {
     width: 100%;
     padding: 65px 45px;
-
 }
 
-.react-todo{
+.react-todo {
     background-image: linear-gradient(180deg, #005ba9, #005ba9);
-    
 }
-.react-todo img{
+
+.react-todo img {
     width: 48%;
     margin-top: 25px;
     margin-left: 27%;
 }
-.vue-resume{
+
+.vue-resume {
     background-image: linear-gradient(180deg, #b4ddbf, #b4ddbf);
 }
 
-.vue-resume img{
+.vue-resume img {
     width: 70%;
     margin-bottom: -45px;
     margin-left: 17%;
 }
-.react-music{
+
+.react-music {
     padding: 45px 65px;
     background-color: #4a4a4a;
 }
-.react-music img{
+
+.react-music img {
     display: block;
     width: 75%;
     height: 75%;
     margin: 45px auto -60px;
+}
+
+.wheels {
+    width: 100%;
+    padding: 45px 65px;
+    background-image: linear-gradient(180deg, #54e7c7, #54e7c7);
+}
+
+.wheels img {
+    display: block;
+    width: 50%;
+    margin-top: 45px;
+    margin-bottom: 0px;
+    margin-left: 28%;
+}
+
+.ai-robot {
+    width: 100%;
+    padding: 45px 65px;
+    background: #009ee2;
+}
+
+.ai-robot img {
+    display: block;
+    width: 50%;
+    margin: 45px 0px -75px 32%;
+}
+
+.summary {
+    padding: 65px 65px 65px 100px;
+    background: #f4f3f3;
 }
