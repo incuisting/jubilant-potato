@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/incuisting/jubilant-potato/issues"
   },
-  "homepage": "https://github.com/incuisting/jubilant-potato#readme"
+  "homepage": "https://github.com/incuisting/jubilant-potato#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
 }
