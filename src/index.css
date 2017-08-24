@@ -57,7 +57,41 @@ a {
     bottom: 15%;
     width: 65%;
 }
+.about-container .name{
+    font-family: 'Museosans 900', sans-serif;
+    color: #4a4a4a;
 
+}
+.name p{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 0
+}
+
+.about-container .about{
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333;
+
+}
+.about-container .social {
+    height: 24px;
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+.about-container .social a{
+    vertical-align: top;
+}
+.about-container .social svg{
+    width: 24px;
+    height: 24px;
+    fill:#a2a2a2;
+}
 .contact-me {
     display: inline-block;
     padding: 15px 65px;
@@ -65,7 +99,7 @@ a {
     border: 0;
     text-decoration: none;
     background: #3b80fe;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-align: center;
     font-weight: 100;
 }
