@@ -81,9 +81,10 @@ a {
 }
 
 .about-container .social {
-    height: 40px;
+    height: 30px;
     margin-top: 45px;
     margin-bottom: 65px;
+    line-height: 30px;
 }
 
 .about-container .social a {
@@ -92,8 +93,8 @@ a {
 }
 
 .about-container .social svg {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     fill: #a2a2a2;
 }
 
@@ -240,6 +241,7 @@ a {
 
 .skill-item li {
     padding: 24px 0 0 0;
+    list-style: circle;
 }
 
 .skill-item li p {
@@ -247,7 +249,20 @@ a {
     line-height: 16px;
 }
 
+.skill::after{
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 10px;
+    background-image:linear-gradient(180deg, rgba(74, 74, 74, .08), rgba(74, 74, 74, .08));
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+/* contact */
+.contact-item{
+    
+}
 /* footer */
 
 .footer {
@@ -270,6 +285,8 @@ a {
         width: 100%;
         margin-left: 0%;
     }
+
+
     .sidebar-wrapper {
         position: static;
         width: 100%;
