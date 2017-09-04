@@ -64,8 +64,8 @@ a {
 }
 
 .name p {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 50px;
+    line-height: 60px;
     font-weight: bold;
     margin-top: 0
 }
@@ -163,14 +163,22 @@ a {
     font-size: 14px;
 }
 
+.project-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img-wrapper img {
+    margin-top: 2.6vw;
+}
+
 .react-todo {
     background-image: linear-gradient(180deg, #005ba9, #005ba9);
 }
 
 .react-todo img {
-    width: 48%;
-    margin-top: 25px;
-    margin-left: 27%;
+    width: 70%;
 }
 
 .vue-resume {
@@ -179,8 +187,6 @@ a {
 
 .vue-resume img {
     width: 70%;
-    margin-bottom: -45px;
-    margin-left: 17%;
 }
 
 .react-music {
@@ -189,10 +195,7 @@ a {
 }
 
 .react-music img {
-    display: block;
-    width: 75%;
-    height: 75%;
-    margin: 45px auto -60px;
+    width: 32%;
 }
 
 .wheels {
@@ -202,11 +205,7 @@ a {
 }
 
 .wheels img {
-    display: block;
-    width: 50%;
-    margin-top: 45px;
-    margin-bottom: 0px;
-    margin-left: 28%;
+    width: 70%;
 }
 
 .ai-robot {
@@ -216,9 +215,7 @@ a {
 }
 
 .ai-robot img {
-    display: block;
     width: 50%;
-    margin: 45px 0px -75px 32%;
 }
 
 
@@ -239,30 +236,34 @@ a {
 
 /* skill */
 
-.skill-item li {
+.skill-item li,
+.contact-item li {
     padding: 24px 0 0 0;
     list-style: circle;
 }
 
-.skill-item li p {
+.skill-item li p,
+.contact-item li p {
     font-size: 16px;
     line-height: 16px;
 }
 
-.skill::after{
+.skill::after {
     content: '';
     display: inline-block;
     width: 100%;
     height: 10px;
-    background-image:linear-gradient(180deg, rgba(74, 74, 74, .08), rgba(74, 74, 74, .08));
+    background-image: linear-gradient(180deg, rgba(74, 74, 74, .08), rgba(74, 74, 74, .08));
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
+
 /* contact */
-.contact-item{
-    
-}
+
+.contact-item {}
+
+
 /* footer */
 
 .footer {
@@ -285,13 +286,47 @@ a {
         width: 100%;
         margin-left: 0%;
     }
-
-
     .sidebar-wrapper {
         position: static;
         width: 100%;
-        height: 750px;
+        min-height: 100vh;
         padding-right: 55px;
         padding-left: 55px;
+    }
+    .about-container {
+        position: absolute;
+        left: 16vw;
+        right: 0px;
+        top: 14%;
+        width: 71vw;
+    }
+    .project li {
+        padding: 8vw 6.4vw 14.9vw 6.4vw;
+    }
+    .react-todo img {
+        width: 80vw;
+    }
+    .vue-resume img {
+        width: 80vw;
+    }
+    .react-music img {
+        width: 50vw;
+    }
+    .wheels img {
+        width: 80vw;
+    }
+    .summary {
+        padding: 6.4vw;
+    }
+    .skill-item li {
+        list-style: none;
+        padding: 3.2vw 0 3.2vw 0;
+        border-bottom: 3px solid rgba(74, 74, 74, .08);
+    }
+    .skill-item li:last-of-type {
+        border: none;
+    }
+    .skill::after {
+        height: 0;
     }
 }

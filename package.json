@@ -1,22 +1,23 @@
 {
-  "name": "resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/incuisting/jubilant-potato.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/incuisting/jubilant-potato/issues"
-  },
-  "homepage": "https://github.com/incuisting/jubilant-potato#readme",
-  "devDependencies": {
-    "webpack": "^3.5.5"
-  }
+    "name": "resume",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "static src"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/incuisting/jubilant-potato.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/incuisting/jubilant-potato/issues"
+    },
+    "homepage": "https://github.com/incuisting/jubilant-potato#readme",
+    "devDependencies": {
+        "node-static": "^0.7.9",
+        "webpack": "^3.5.5"
+    }
 }
