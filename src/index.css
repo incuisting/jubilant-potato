@@ -428,7 +428,7 @@ a {
         padding-top: 1.67vw;
         padding-bottom: 1.67vw;
         border-left: none;
-        border-bottom: 1px solid rgba(74, 74, 74, .6);
+        /* border-bottom: 1px solid rgba(74, 74, 74, .6); */
         font-size: 5.3vw;
     }
     .contact-item>li p span {
