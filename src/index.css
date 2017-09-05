@@ -70,6 +70,10 @@ a {
     margin-top: 0
 }
 
+.name p:nth-of-type(2) {
+    font-weight: 100;
+}
+
 .about-container .about {
     display: block;
     margin-top: 25px;
@@ -244,6 +248,10 @@ a {
 .skill-item li p {
     font-size: 18px;
     line-height: 24px;
+}
+
+.skill-item li p>span {
+    border: 1px solid #4a4a4a;
 }
 
 .skill::after {
