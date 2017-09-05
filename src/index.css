@@ -297,7 +297,7 @@ a {
 }
 
 .wechat {
-    width: 50%;
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -390,7 +390,7 @@ a {
         width: 80vw;
     }
     .summary {
-        padding: 6.4vw;
+        padding: 12vw 6.4vw;
     }
     .skill-item li {
         list-style: none;
@@ -408,27 +408,40 @@ a {
         height: 0;
     }
     .contact-wrapper {
-        flex-direction: column;
-        margin-top: 2.67vw;
+        flex-direction: row;
+        margin-top: 2.6vw;
+    }
+    .contact-item {
+        border-left: none;
     }
     .contact-item>li p {
         display: flex;
         flex-direction: row;
-        padding-bottom: 2.67vw;
+        padding-top: 1.67vw;
+        padding-bottom: 1.67vw;
         border-left: none;
         border-bottom: 1px solid rgba(74, 74, 74, .6);
+        font-size: 5.3vw;
     }
     .contact-item>li p span {
         margin-right: 2.67vw;
-        font-weight: 700;
+        font-weight: 100;
     }
     .wechat {
         width: 100%;
         justify-content: center;
-        margin-top: 5vw;
+        margin-top: 0;
     }
     .wechat>img {
         width: 30vw;
+        margin-right: 4vw;
+    }
+    .footer {
+        /* height: 80px; */
+        padding: 6.67vw 13.3vw;
+    }
+    .footer p {
+        font-size: 3.73vw;
     }
 }
 
