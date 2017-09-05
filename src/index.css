@@ -236,16 +236,14 @@ a {
 
 /* skill */
 
-.skill-item li,
-.contact-item li {
+.skill-item li {
     padding: 24px 0 0 0;
     list-style: circle;
 }
 
-.skill-item li p,
-.contact-item li p {
-    font-size: 16px;
-    line-height: 16px;
+.skill-item li p {
+    font-size: 18px;
+    line-height: 24px;
 }
 
 .skill::after {
@@ -261,7 +259,41 @@ a {
 
 /* contact */
 
-.contact-item {}
+.contact-wrapper {
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 100;
+}
+.contact-item{
+    flex-grow: 1;
+    margin-top: 1.6vw;
+}
+
+.contact-item>li{
+    margin-bottom: 1vw;
+}
+
+
+.contact-item>li p{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    border-left: 3px solid rgba(74, 74, 74, .6);
+}    
+.contact-item>li p span{
+    font-weight: normal;
+}    
+
+.wechat{
+    width:32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wechat>img{
+    width: 100%;
+}
 
 
 /* footer */
@@ -300,8 +332,36 @@ a {
         top: 14%;
         width: 71vw;
     }
+    .name p{
+        font-size: 13.3vw;
+        line-height: 16vw;
+    }
+    .about-container .about {
+        margin-top: 6.67vw;
+        margin-bottom: 2.67vw;;
+        font-size: 4.27vw;
+        line-height: 6.93vw;
+    }
+    .about-container .social {
+        height: 8vw;
+        margin-top: 12vw;
+        margin-bottom: 17.3vw;
+        line-height: 8vw;
+    }
+    .contact-me{
+        padding: 4vw 17.3vw;
+    }
+
+    /* project */
     .project li {
         padding: 8vw 6.4vw 14.9vw 6.4vw;
+    }
+    .project-information .title{
+        font-size: 6.4vw;
+    }
+    .project-information p {
+        margin-top: 2.13vw;
+        font-size: 3.73vw;
     }
     .react-todo img {
         width: 80vw;
@@ -323,10 +383,37 @@ a {
         padding: 3.2vw 0 3.2vw 0;
         border-bottom: 3px solid rgba(74, 74, 74, .08);
     }
+    .skill-item li p {
+        font-size: 4.8vw;
+        line-height: 6.4vw;
+    }
     .skill-item li:last-of-type {
         border: none;
     }
     .skill::after {
         height: 0;
+    }
+    .contact-wrapper{
+        flex-direction: column;
+        margin-top: 2.67vw;
+    }
+    .contact-item>li p {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2.67vw;
+        border-left: none;
+        border-bottom: 1px solid rgba(74, 74, 74, .6);
+    }
+    .contact-item>li p span{
+        margin-right: 2.67vw;
+        font-weight: 700;
+    }
+    .wechat {
+        width: 100%;
+        justify-content: center;
+        margin-top: 5vw;
+    }
+    .wechat>img {
+        width: 30vw;
     }
 }
