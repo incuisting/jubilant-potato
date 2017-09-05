@@ -13,16 +13,16 @@
 <body>
     <div class="sidebar-wrapper">
         <div class="about-container">
-            <h1 class="name">
+            <h1 class="name left-in-init">
                 <p>啊啊啊.</p>
                 <p>呀呀呀呀.</p>
                 <p>开开开开.</p>
                 <!-- <p>PROGROMER.</p> -->
             </h1>
-            <p class="about">
+            <p class="about left-in-init">
                 Charlie Waite is a Experience Design Director @GoPro and formerly Interactive Director @Focus Lab. Follow his work, words and photos below.
             </p>
-            <div class="social">
+            <div class="social left-in-init">
                 <a href="#">
                     <svg class="icon">
                         <use xlink:href="#icon-mail1"></use>
@@ -39,7 +39,7 @@
                     </svg>
                 </a>
             </div>
-            <a class="contact-me" href="#contact">Contact Me！</a>
+            <a class="contact-me left-in-init" href="#contact">Contact Me！</a>
         </div>
     </div>
     <div class="content-wrapper">
@@ -47,7 +47,7 @@
             <li class="react-todo">
                 <div class="project-number">001</div>
                 <div class="project-img-wrapper">
-                    <img src="./img/todoDesktop.png" alt="1">
+                    <img class="bottom-in-init" src="./img/todoDesktop.png" alt="1">
                 </div>
                 <div class="project-information">
                     <h4 class="title">react-todo</h4>
@@ -75,7 +75,7 @@
             <li class="vue-resume">
                 <div class="project-number">002</div>
                 <div class="project-img-wrapper">
-                    <img src="./img/vue-resumer.png" alt="2">
+                    <img class="bottom-in-init" src="./img/vue-resumer.png" alt="2">
                 </div>
                 <div class="project-information">
                     <h4 class="title">react-todo</h4>
@@ -103,7 +103,7 @@
             <li class="react-music">
                 <div class="project-number">003</div>
                 <div class="project-img-wrapper">
-                    <img src="./img/musicPhone.png" alt="3">
+                    <img class="bottom-in-init" src="./img/musicPhone.png" alt="3">
                 </div>
                 <div class="project-information">
                     <h4 class="title">react-todo</h4>
@@ -131,7 +131,7 @@
             <li class="wheels">
                 <div class="project-number">004</div>
                 <div class="project-img-wrapper">
-                    <img src="./img/companySiteDesktop.png" alt="4">
+                    <img class="bottom-in-init" src="./img/companySiteDesktop.png" alt="4">
                 </div>
                 <div class="project-information">
                     <h4 class="title">react-todo</h4>
@@ -252,6 +252,18 @@
             <p>© 2017 incuisting. Made in the WenZhou.</p>
         </div>
     </div>
+    <script>
+        window.onload = function() {
+            let left = document.querySelectorAll('.left-in-init')
+            let up = document.querySelectorAll('.bottom-in-init')
+            Array.prototype.forEach.call(left, function(item) {
+                item.classList.add('animate')
+            })
+            Array.prototype.forEach.call(up, function(item) {
+                item.classList.add('animate')
+            })
+        }
+    </script>
 </body>
 
 </html>

@@ -431,3 +431,22 @@ a {
         width: 30vw;
     }
 }
+
+
+/* animation */
+
+.left-in-init {
+    opacity: 0;
+    transform: translate(-25px, 0px);
+}
+
+.bottom-in-init {
+    opacity: 0;
+    transform: translate(0px, 65px);
+}
+
+.animate {
+    opacity: 1;
+    transform: translateX(0px) translateY(0px) translateZ(0px);
+    transition: opacity 800ms, transform 800ms;
+}
