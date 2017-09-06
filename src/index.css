@@ -133,7 +133,12 @@ a {
 
 .project-information p {
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.project-information p span {
+    font-weight: bold;
 }
 
 .code-icon {
@@ -385,6 +390,9 @@ a {
         margin-top: 2.13vw;
         font-size: 3.73vw;
         font-weight: normal;
+    }
+    .project-information p span {
+        font-weight: bold;
     }
     .react-todo img {
         width: 80vw;
