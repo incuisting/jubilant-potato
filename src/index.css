@@ -351,7 +351,7 @@ a {
         position: absolute;
         left: 16vw;
         right: 0px;
-        top: 14%;
+        top: 7%;
         width: 71vw;
     }
     .name p {
@@ -384,6 +384,7 @@ a {
     .project-information p {
         margin-top: 2.13vw;
         font-size: 3.73vw;
+        font-weight: normal;
     }
     .react-todo img {
         width: 80vw;
