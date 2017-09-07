@@ -134,11 +134,10 @@ a {
 .project-information p {
     margin-top: 8px;
     font-size: 16px;
-    font-weight: normal;
 }
 
 .project-information p span {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 .code-icon {
@@ -256,7 +255,9 @@ a {
 }
 
 .skill-item li p>span {
-    border: 1px solid #4a4a4a;
+    background: rgba(0, 0, 0, .1);
+    /* font-weight: 100; */
+    padding: 0 .2vw;
 }
 
 .skill::after {

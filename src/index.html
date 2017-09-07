@@ -20,7 +20,7 @@
                 <!-- <p>PROGROMER.</p> -->
             </h1>
             <p class="about left-in-init">
-                思维灵活发散，强大的自我驱动能力。 在独立项目开发过程中体现出优秀的新技术学习、问题分析解决能力。寻找技术驱动，成长空间用激情与成果证明快速成为团队中流砥柱
+                思维灵活发散，强大的自我驱动能力。在独立项目开发过程中有优秀的新技术学习、问题分析解决能力。用激情与成果快速成为团队中流砥柱。
             </p>
             <div class="social left-in-init">
                 <a href="mailto:393146040@qq.com">
@@ -28,12 +28,12 @@
                         <use xlink:href="#icon-mail1"></use>
                     </svg>
                 </a>
-                <a href="#">
+                <a href="https://github.com/incuisting/blogs/issues">
                     <svg class="icon">
                         <use xlink:href="#icon-boke"></use>
                     </svg>
                 </a>
-                <a href="#">
+                <a href="https://github.com/incuisting">
                     <svg class="icon">
                         <use xlink:href="#icon-github"></use>
                     </svg>
@@ -50,22 +50,22 @@
                     <img class="bottom-in-init" src="http://ovurjb7rj.bkt.clouddn.com/todoDesktop.png" alt="1">
                 </div>
                 <div class="project-information">
-                    <h4 class="title">react-todo</h4>
-                    <p class="introduction">一个轻量级单页在线待办事项管理应用，支持注册，支持增删改查，云同步，视图切换，日期分组等功能。采用最新技术生态，ES6/ES7语法，追求最佳实践。</p>
+                    <h4 class="title">NoEmmm</h4>
+                    <p class="introduction">一款基于日历的待办事项管理应用，可以针对具体的日子添加和删除待办事项，同时支持注册登陆和云同步。由于基于React，所以大量采用了ES6语法，用了moment.js对日期进行处理，使得日历部分的代码更便于管理。遗憾的是目前只支持桌面端，后续还会加入对移动端的支持。</p>
                     <p class="deploy">
-                        <span>部署：</span> LeanCloud + Node + Express
+                        <span>部署：</span> LeanCloud
                     </p>
                     <p class="technology-stack">
-                        <span>技术栈：</span> React + Redux + React Router V4 + Styled Components + Material UI + Webpack
+                        <span>技术栈：</span> React + moment.js + webpack
                     </p>
                 </div>
                 <div class="code-icon">
-                    <a href="#">
+                    <a href="https://incuisting.github.io/repo/build/index.html">
                         <svg class="icon">
                             <use xlink:href="#icon-eye"></use>
                         </svg>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/incuisting/repo">
                         <svg class="icon">
                             <use xlink:href="#icon-github"></use>
                         </svg>
@@ -78,22 +78,23 @@
                     <img class="bottom-in-init" src="http://ovurjb7rj.bkt.clouddn.com/vue-resumer.png" alt="2">
                 </div>
                 <div class="project-information">
-                    <h4 class="title">react-todo</h4>
-                    <p class="introduction">一个轻量级单页在线待办事项管理应用，支持注册，支持增删改查，云同步，视图切换，日期分组等功能。采用最新技术生态，ES6/ES7语法，追求最佳实践。</p>
+                    <h4 class="title">在线简历生成器</h4>
+                    <p class="introduction">
+                        写简历好麻烦，所以有了这么一个简历生成器，可以动态生成一份样式不错的简历。支持注册和登陆，登录之后还可以支持在线预览。项目主要是基于VUE，用VUEX做了状态管理，样式方面是用了scss，使得样式在后期维护上可以更加直观。期间，有人反映在不同分辨率的电脑上布局完全走样。最后决定将所有单位改成vw来解决这个问题。</p>
                     <p class="deploy">
-                        <span>部署：</span> LeanCloud + Node + Express
+                        <span>部署：</span> LeanCloud
                     </p>
                     <p class="technology-stack">
-                        <span>技术栈：</span> React + Redux + React Router V4 + Styled Components + Material UI + Webpack
+                        <span>技术栈：</span> VUE + VUEX + SCSS+ webpack
                     </p>
                 </div>
                 <div class="code-icon">
-                    <a href="#">
+                    <a href="https://incuisting.github.io/resumer-maker/dist/">
                         <svg class="icon">
                             <use xlink:href="#icon-eye"></use>
                         </svg>
                     </a>
-                    <a href="#">
+                    <a href="https://github.com/incuisting/resumer-maker">
                         <svg class="icon">
                             <use xlink:href="#icon-github"></use>
                         </svg>
@@ -106,13 +107,13 @@
                     <img class="bottom-in-init" src="http://ovurjb7rj.bkt.clouddn.com/musicPhone.png" alt="3">
                 </div>
                 <div class="project-information">
-                    <h4 class="title">react-todo</h4>
-                    <p class="introduction">一个轻量级单页在线待办事项管理应用，支持注册，支持增删改查，云同步，视图切换，日期分组等功能。采用最新技术生态，ES6/ES7语法，追求最佳实践。</p>
+                    <h4 class="title">NetEaseMusic</h4>
+                    <p class="introduction">整个项目用jQuery实现，由于jQuery在DOM操作上相较于原生js确实高效很多。css样式初次尝试用scss，不得不感叹一句SCSS大法好，样式一目了然。不过也碰到了一些问题，比如歌曲暂停后重新播放旋转的光盘会被重置，后来通过animation-play-state控制动画的播放和暂停解决了这个问题。还有由于搜索框监听input事件，只要一有输入就有ajax请求，会导致请求过多，影响最后的结果，最终通过debounce函数解决了这个问题。</p>
                     <p class="deploy">
-                        <span>部署：</span> LeanCloud + Node + Express
+                        <!-- <span>部署：</span> LeanCloud + Node + Express -->
                     </p>
                     <p class="technology-stack">
-                        <span>技术栈：</span> React + Redux + React Router V4 + Styled Components + Material UI + Webpack
+                        <span>技术栈：</span> jQuery + webpack + SCSS
                     </p>
                 </div>
                 <div class="code-icon">
@@ -134,13 +135,14 @@
                     <img class="bottom-in-init" src="http://ovurjb7rj.bkt.clouddn.com/companySiteDesktop.png" alt="4">
                 </div>
                 <div class="project-information">
-                    <h4 class="title">react-todo</h4>
-                    <p class="introduction">一个轻量级单页在线待办事项管理应用，支持注册，支持增删改查，云同步，视图切换，日期分组等功能。采用最新技术生态，ES6/ES7语法，追求最佳实践。</p>
+                    <h4 class="title">组件化商业首页</h4>
+                    <p class="introduction">
+                        这个项目是对组件封装以及代码打包的实践.主要组件包括：轮播、懒加载、瀑布流布局、回到顶部。对由于涉及较多dom操作，选择使用jQuery提高开发效率。整体页面使用webpack打包，也使用了requireJS作为对比，理解CMD&AMD差异。</p>
                     <p class="deploy">
-                        <span>部署：</span> LeanCloud + Node + Express
+                        <!-- <span>部署：</span> LeanCloud + Node + Express -->
                     </p>
                     <p class="technology-stack">
-                        <span>技术栈：</span> React + Redux + React Router V4 + Styled Components + Material UI + Webpack
+                        <!-- <span>技术栈：</span> React + Redux + React Router V4 + Styled Components + Material UI + Webpack -->
                     </p>
                 </div>
                 <div class="code-icon">
@@ -190,34 +192,34 @@
                 <h3>Skill</h3>
                 <ul class="skill-item">
                     <li>
-                        <p>熟练掌握HTML(5)和常用CSS(3)，具有 <span>像素级</span>还原设计稿的能力。具有 平均水准之上 的审美，追求设计的优雅。</p>
+                        <p>熟练掌握HTML(5)和常用CSS(3)，具有 <span>像素级</span>还原设计稿的能力。具有<span>平均水准之上</span>的审美，追求设计的优雅。</p>
                     </li>
                     <li>
-                        <p>熟练掌握原生Javascript，掌握重要概念如： 原型， 闭包， 作用域链， 面向对象， 异步流程控制等。能够根据面向对象思想利用JS/jQuery 封装 常用插件。 熟练使用 ES6及ES7 部分新特性。
+                        <p>熟练掌握原生Javascript，掌握重要概念如：<span>原型</span>，<span>闭包</span>，<span>作用域链</span>，<span>面向对象</span>，<span>异步流程控制</span>等。能够根据面向对象思想利用JS/jQuery <span>封装</span>常用插件。 熟练使用 <span>ES6</span>部分新特性。
                         </p>
                     </li>
                     <li>
                         <p>熟悉React框架及相关流行库的使用，理解重要概念如：生命周期，异步更新，性能优化，虚拟DOM（DCG），Immutable data等。了解Redux Store最佳设计实践，并有 **相关项目踩坑（发现问题）脱坑（解决问题）**的经验。</p>
                     </li>
                     <li>
-                        <p>熟悉HTTP协议及浏览器渲染原理，了解前端 性能优化策略。</p>
+                        <p>熟悉<span>HTTP协议</span>及浏览器<span>渲染原理</span>，了解前端 <span>性能优化</span>策略。</p>
                     </li>
                     <li>
-                        <p>熟悉Yarn & Npm & Git ，能够使用Node.js搭配Express进行基本后台开发。</p>
+                        <p>熟悉<span>Npm & Git</span>，能够使用Node.js搭配Express进行基本后台开发。</p>
                     </li>
                     <li>
-                        <p>熟悉CMD&AMD机制，熟悉Webpack打包，优化手段。</p>
+                        <p>熟悉<span>CMD&AMD</span>机制，熟悉<span>Webpack打包</span>。</p>
                     </li>
                     <li>
-                        <p>英语能力优秀（曾任托福阅读助教），能够流畅阅读英文材料，常阅读Medium，SitePoint等平台文章。 面向Google及Stack Overflow编程 :)。 拥有认真总结，书写技术博客的习惯。</p>
+                        <p>能流畅阅读英文文档，面向Google及Stack Overflow编程。 拥有认真总结，书写技术<a href="https://github.com/incuisting/blogs/issues">博客</a>的习惯。</p>
                     </li>
                     <li>
-                        <p>追求风格优雅，整洁的代码。 无分号，空格缩进拥护者</p>
+                        <p>追求风格优雅，整洁的代码。<span>无分号</span>拥护者</p>
                     </li>
                 </ul>
             </div>
             <div class="contact">
-                <h3>Contact</h3>
+                <h3>联系方式</h3>
                 <div class="contact-wrapper">
                     <div class="wechat">
                         <img src="http://ovurjb7rj.bkt.clouddn.com/wechat.jpg" alt="">
@@ -239,6 +241,13 @@
                         <li>
                             <p><svg class="icon">
                                     <use xlink:href="#icon-dianhua"></use>
+                                </svg>
+                                <span>13131111@333.com</span>
+                            </p>
+                        </li>
+                        <li>
+                            <p><svg class="icon">
+                                    <use xlink:href="#icon-icon-"></use>
                                 </svg>
                                 <span>13131111@333.com</span>
                             </p>
