@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "static src"
+        "start": "http-server ./src -c-1"
     },
     "repository": {
         "type": "git",
@@ -17,6 +17,7 @@
     },
     "homepage": "https://github.com/incuisting/jubilant-potato#readme",
     "devDependencies": {
+        "http-server": "^0.10.0",
         "node-static": "^0.7.9",
         "webpack": "^3.5.5"
     }

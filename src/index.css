@@ -79,7 +79,7 @@ a {
     margin-top: 25px;
     margin-bottom: 10px;
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 26px;
     color: #333;
 }
@@ -133,7 +133,7 @@ a {
 
 .project-information p {
     margin-top: 8px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .project-information p span {
@@ -245,13 +245,13 @@ a {
 /* skill */
 
 .skill-item li {
-    padding: 24px 0 0 0;
+    padding: 20px 0 0 0;
     list-style: circle;
 }
 
 .skill-item li p {
     font-size: 18px;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .skill-item li p>span {
@@ -367,8 +367,7 @@ a {
     .about-container .about {
         margin-top: 6.67vw;
         margin-bottom: 2.67vw;
-        ;
-        font-size: 4.27vw;
+        font-size: 4.8vw;
         line-height: 6.93vw;
     }
     .about-container .social {
@@ -389,7 +388,7 @@ a {
     }
     .project-information p {
         margin-top: 2.13vw;
-        font-size: 3.73vw;
+        font-size: 4.8vw;
         font-weight: normal;
     }
     .project-information p span {
@@ -417,7 +416,7 @@ a {
     }
     .skill-item li p {
         font-size: 4.8vw;
-        line-height: 6.4vw;
+        line-height: 8vw;
     }
     .skill-item li:last-of-type {
         border: none;
