@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-weight: 100;
 }
 
 *::before,
@@ -134,6 +133,7 @@ a {
 .project-information p {
     margin-top: 8px;
     font-size: 18px;
+    font-weight: normal;
 }
 
 .project-information p span {
