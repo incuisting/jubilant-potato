@@ -223,7 +223,8 @@ a {
 }
 
 .ai-robot img {
-    width: 50%;
+    width: 70%;
+
 }
 
 
@@ -404,6 +405,9 @@ a {
         width: 50vw;
     }
     .wheels img {
+        width: 80vw;
+    }
+    .ai-robot img{
         width: 80vw;
     }
     .summary {
